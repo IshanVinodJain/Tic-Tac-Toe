@@ -17,14 +17,12 @@ boxes.forEach((box) =>{
     box.addEventListener("click", () => {
         if(turn == true){
             box.innerText = "X";
-            document.querySelector(".box").style.color = "#F7374F";
             turn = false;
             player = "X";
             box.disabled = true;
         }
         else{
             box.innerText="O";
-            document.querySelector(".box").style.color = "#FFB22C";
             turn = true;
             player = "O";
             box.disabled = true;
