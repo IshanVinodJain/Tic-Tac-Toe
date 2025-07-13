@@ -32,6 +32,7 @@ h1{
     border: none;
     font-size: 8vmin;
     background-color: black;
+    color: white;
 }
 .reset{
     padding: 1rem;
