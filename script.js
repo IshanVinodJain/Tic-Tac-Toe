@@ -53,7 +53,6 @@ function cw(){
         
         if(p1 != "" && p2 != "" && p3 != "" ){
             if(p1 == p2 && p2 == p3){
-                console.log("winner");
                 document.querySelector(".winner").innerText = "Winner is "+ player;
                 bd()
             }
