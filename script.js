@@ -47,8 +47,6 @@ function bd(){
 }
 function cw(){
     for(pattern of wp){
-        console.log(boxes[pattern[0]].innerText,boxes[pattern[1]].innerText,boxes[pattern[2]].innerText);
-        console.log(pattern[0],pattern[1],pattern[2]);
         p1 = boxes[pattern[0]].innerText;
         p2 = boxes[pattern[1]].innerText;
         p3 = boxes[pattern[2]].innerText;
